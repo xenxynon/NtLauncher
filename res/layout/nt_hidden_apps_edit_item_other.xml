@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:stateListAnimator="@animator/all_apps_fastscroll_icon_anim"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res-auto">
+    <com.android.launcher3.BubbleTextView android:id="@id/icon" launcher:centerVertically="true" launcher:iconDisplay="nt_edit_hidden_apps" style="@style/BaseIcon.NTEditHiddenApps" />
+    <ImageView android:layout_gravity="end|center|top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:src="@drawable/nt_ic_app_add" android:layout_marginEnd="8.0dip" />
+</FrameLayout>

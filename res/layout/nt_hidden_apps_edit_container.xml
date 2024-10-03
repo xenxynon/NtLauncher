@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nothing.launcher.setting.hiddenapps.EditHiddenAppsContainerView android:focusable="false" android:saveEnabled="false" android:clipChildren="true" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/nt_edit_subtitle" layout="@layout/hidden_apps_rv_layout" />
+    <TextView android:id="@id/fast_scroller_popup" android:layout_marginTop="@dimen/all_apps_header_bottom_padding" android:layout_alignTop="@id/apps_list_view" android:layout_marginEnd="@dimen/fastscroll_popup_margin" android:layout_alignParentEnd="true" style="@style/FastScrollerPopup" />
+    <com.android.launcher3.views.RecyclerViewFastScroller android:id="@id/fast_scroller" android:layout_width="@dimen/fastscroll_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/all_apps_header_bottom_padding" android:layout_alignTop="@id/apps_list_view" android:layout_alignParentBottom="true" android:layout_marginEnd="@dimen/fastscroll_end_margin" android:layout_alignParentEnd="true" launcher:canThumbDetach="true" launcher:useTransparentTrack="true" />
+</com.nothing.launcher.setting.hiddenapps.EditHiddenAppsContainerView>

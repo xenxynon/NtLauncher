@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/folder_style_icon_size" android:width="@dimen/folder_style_icon_size" android:viewportWidth="78.0" android:viewportHeight="78.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/folder_type_icon_bg_color" android:pathData="M39,0L39,0A39,39 0,0 1,78 39L78,39A39,39 0,0 1,39 78L39,78A39,39 0,0 1,0 39L0,39A39,39 0,0 1,39 0z" />
+    <path android:fillColor="@color/folder_type_icon_item_color" android:pathData="M24,11L24,11A13,13 0,0 1,37 24L37,24A13,13 0,0 1,24 37L24,37A13,13 0,0 1,11 24L11,24A13,13 0,0 1,24 11z" />
+    <path android:fillColor="@color/folder_type_icon_item_color" android:pathData="M24,41L24,41A13,13 0,0 1,37 54L37,54A13,13 0,0 1,24 67L24,67A13,13 0,0 1,11 54L11,54A13,13 0,0 1,24 41z" />
+    <path android:fillColor="@color/folder_type_icon_item_color" android:pathData="M54,11L54,11A13,13 0,0 1,67 24L67,24A13,13 0,0 1,54 37L54,37A13,13 0,0 1,41 24L41,24A13,13 0,0 1,54 11z" />
+    <path android:fillColor="@color/folder_type_icon_item_color" android:pathData="M47.5,42L47.5,42A5.5,5.5 0,0 1,53 47.5L53,47.5A5.5,5.5 0,0 1,47.5 53L47.5,53A5.5,5.5 0,0 1,42 47.5L42,47.5A5.5,5.5 0,0 1,47.5 42z" />
+    <path android:fillColor="@color/folder_type_icon_item_color" android:pathData="M60.5,42L60.5,42A5.5,5.5 0,0 1,66 47.5L66,47.5A5.5,5.5 0,0 1,60.5 53L60.5,53A5.5,5.5 0,0 1,55 47.5L55,47.5A5.5,5.5 0,0 1,60.5 42z" />
+    <path android:fillColor="@color/folder_type_icon_item_color" android:pathData="M47.5,55L47.5,55A5.5,5.5 0,0 1,53 60.5L53,60.5A5.5,5.5 0,0 1,47.5 66L47.5,66A5.5,5.5 0,0 1,42 60.5L42,60.5A5.5,5.5 0,0 1,47.5 55z" />
+    <path android:fillColor="@color/folder_type_icon_item_color" android:pathData="M60.5,55L60.5,55A5.5,5.5 0,0 1,66 60.5L66,60.5A5.5,5.5 0,0 1,60.5 66L60.5,66A5.5,5.5 0,0 1,55 60.5L55,60.5A5.5,5.5 0,0 1,60.5 55z" />
+</vector>

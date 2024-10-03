@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nothing.launcher.setting.screenlayout.GridConfigPreference android:layout="@layout/preference_grid_config_item" android:title="@string/nothing_wallpaper_style_grid_title" android:key="pref_app_grid_column" />
+    <com.nothing.ui.support.NtCustSwitchPreference android:persistent="true" android:title="@string/home_cus_layout_label_title" android:key="pref_display_workspace_label" android:summary="@string/home_cus_layout_label_subtitle" android:defaultValue="true" />
+    <com.nothing.ui.support.NtCustSwitchPreference android:persistent="true" android:title="@string/home_cus_layout_serbar_title" android:key="pref_display_searchbar" android:summary="@string/nothing_setting_display_searchbar" android:defaultValue="true" />
+</androidx.preference.PreferenceScreen>

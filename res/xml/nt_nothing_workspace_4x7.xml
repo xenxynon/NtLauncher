@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites
+  xmlns:launcher="http://schemas.android.com/apk/res-auto/com.android.launcher3">
+    <nothingwidget launcher:className="com.nothing.hearthstone.clock.provider.AnalogWidgetProvider" launcher:itemType="100" launcher:packageName="com.nothing.hearthstone" launcher:screen="0" launcher:spanX="2" launcher:spanY="2" launcher:x="0" launcher:y="0" />
+    <nothingwidget launcher:className="com.nothing.hearthstone.quicklook.QLCardModeWidgetProvider" launcher:itemType="100" launcher:packageName="com.nothing.hearthstone" launcher:screen="0" launcher:spanX="2" launcher:spanY="2" launcher:x="2" launcher:y="0" />
+    <favorite launcher:className="com.google.android.apps.photos.home.HomeActivity" launcher:packageName="com.google.android.apps.photos" launcher:screen="0" launcher:x="0" launcher:y="2" />
+    <favorite launcher:className="com.google.android.apps.tachyon.MainActivity" launcher:packageName="com.google.android.apps.tachyon" launcher:screen="0" launcher:x="1" launcher:y="2" />
+    <favorite launcher:className="com.android.vending.AssetBrowserActivity" launcher:packageName="com.android.vending" launcher:screen="0" launcher:x="2" launcher:y="2" />
+    <favorite launcher:className="com.nothing.home.activity.WelcomeActivity" launcher:packageName="com.nothing.smartcenter" launcher:screen="0" launcher:x="3" launcher:y="2" />
+    <nothingwidget launcher:className="com.nothing.hearthstone.clock.provider.WorldWidgetProvider" launcher:itemType="100" launcher:packageName="com.nothing.hearthstone" launcher:screen="0" launcher:spanX="2" launcher:spanY="1" launcher:x="0" launcher:y="3" />
+    <nothingwidget launcher:className="com.nothing.weather.widget.provider.CircleWidgetCardProvider" launcher:itemType="100" launcher:packageName="com.nothing.weather" launcher:screen="0" launcher:spanX="2" launcher:spanY="2" launcher:x="2" launcher:y="3" />
+    <nothingfolder folderType="1" screen="0" spanX="2" spanY="2" title="@string/google_folder_name" x="0" y="4">
+        <favorite className="com.google.android.googlequicksearchbox.SearchActivity" packageName="com.google.android.googlequicksearchbox" />
+        <favorite className="com.google.android.gm.ConversationListActivityGmail" packageName="com.google.android.gm" />
+        <favorite className="com.google.android.maps.MapsActivity" packageName="com.google.android.apps.maps" />
+        <favorite className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity" packageName="com.google.android.youtube" />
+        <favorite className="com.google.android.apps.docs.app.NewMainProxyActivity" packageName="com.google.android.apps.docs" />
+        <favorite className="com.google.android.apps.youtube.music.activities.MusicActivity" packageName="com.google.android.apps.youtube.music" />
+        <favorite className="com.google.android.videos.GoogleTvEntryPoint" packageName="com.google.android.videos" />
+        <favorite className="com.android.contacts.activities.PeopleActivity" packageName="com.google.android.contacts" />
+        <favorite className="com.google.android.apps.nbu.files.home.HomeActivity" packageName="com.google.android.apps.nbu.files" />
+        <favorite className="com.google.android.apps.chromecast.app.DiscoveryActivity" packageName="com.google.android.apps.chromecast.app" />
+        <favorite className="com.google.commerce.tapandpay.android.cardlist.CardListActivity" packageName="com.google.android.apps.walletnfcrel" />
+        <favorite className="com.google.android.apps.subscriptions.red.LauncherActivity" packageName="com.google.android.apps.subscriptions.red" />
+        <favorite className="com.google.android.apps.adm.activities.MainActivity" packageName="com.google.android.apps.adm" />
+    </nothingfolder>
+    <resolve launcher:container="-101" launcher:screen="0" launcher:x="0" launcher:y="0">
+        <favorite launcher:uri="\#Intent;action=android.intent.action.DIAL;end" />
+        <favorite launcher:uri="tel:123" />
+        <favorite launcher:uri="\#Intent;action=android.intent.action.CALL_BUTTON;end" />
+        <favorite className="com.google.android.dialer.extensions.GoogleDialtactsActivity" packageName="com.google.android.dialer" />
+    </resolve>
+    <favorite launcher:className="com.google.android.apps.messaging.ui.ConversationListActivity" launcher:container="-101" launcher:packageName="com.google.android.apps.messaging" launcher:screen="1" launcher:x="1" launcher:y="0" />
+    <favorite launcher:className="com.google.android.apps.chrome.Main" launcher:container="-101" launcher:packageName="com.android.chrome" launcher:screen="2" launcher:x="2" launcher:y="0" />
+    <favorite launcher:className="com.nothing.camera.activity.CameraActivity" launcher:container="-101" launcher:packageName="com.nothing.camera" launcher:screen="3" launcher:x="3" launcher:y="0" />
+</favorites>

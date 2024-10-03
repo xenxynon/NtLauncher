@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:pathData="M19,4H9C6.79,4 5,5.79 5,8V14C5,14.55 5.45,15 6,15H18C18.55,15 19,14.55 19,14V4Z" android:strokeColor="@color/options_popup_item_icon_fill_color" android:strokeWidth="2.0" android:fillType="evenOdd" />
+    <path android:fillColor="@color/options_popup_item_icon_fill_color" android:pathData="M15,15H9V21H15V15Z" />
+    <path android:pathData="M19,11H5" android:strokeColor="@color/options_popup_item_icon_fill_color" android:strokeWidth="2.0" />
+    <path android:pathData="M16,4V8" android:strokeColor="@color/options_popup_item_icon_fill_color" android:strokeWidth="2.0" android:strokeLineCap="round" />
+</vector>

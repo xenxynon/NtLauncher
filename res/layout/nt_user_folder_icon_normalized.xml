@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.folder.Folder android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/folder_header" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.nothing.launcher.folder.NTFolderNameEditText android:textSize="32.0sp" android:textColor="@color/folder_name_text_color" android:gravity="center" android:id="@id/folder_name" android:background="@drawable/folder_name_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="72.0dip" android:maxLines="1" android:singleLine="true" android:selectAllOnFocus="true" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:fontFamily="sans-serif" android:paddingHorizontal="@dimen/folder_name_paddings" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/folder_content_lay" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.android.launcher3.folder.FolderPagedView android:id="@id/folder_content" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" launcher:pageIndicator="@id/folder_page_indicator" />
+        <RelativeLayout android:id="@id/folder_footer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <com.android.launcher3.pageindicators.PageIndicatorDots android:id="@id/folder_page_indicator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/folder_indicator_dots_marginBottom" android:layout_centerHorizontal="true" android:elevation="1.0dip" />
+        </RelativeLayout>
+    </RelativeLayout>
+</com.android.launcher3.folder.Folder>

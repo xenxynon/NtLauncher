@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <shape android:shape="rectangle">
+            <stroke android:width="2.0dip" android:color="@color/folder_customise_emoji_tab_selected_color" />
+            <corners android:radius="10.0dip" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <ripple android:color="?android:colorControlHighlight"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:id="@android:id/mask">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/folder_customise_panel_color" />
+                    <corners android:radius="10.0dip" />
+                </shape>
+            </item>
+        </ripple>
+    </item>
+    <item>
+        <shape android:shape="rectangle" />
+    </item>
+</selector>

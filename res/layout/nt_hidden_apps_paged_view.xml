@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nothing.launcher.hiddenapps.NTHiddenAppsPagedView android:focusable="false" android:saveEnabled="false" android:clipChildren="true" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/hidden_apps_container" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/nt_hidden_apps" />
+    <include android:id="@id/apps_view" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/all_apps" />
+</com.nothing.launcher.hiddenapps.NTHiddenAppsPagedView>

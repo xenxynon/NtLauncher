@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nothing.launcher.hiddenapps.HiddenAppsContainerView android:focusable="false" android:saveEnabled="false" android:clipChildren="true" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_marginHorizontal="48.0dip" layout="@layout/nt_hidden_apps_empty" />
+    <include android:id="@id/nt_header" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/nt_hidden_apps_header" />
+    <include android:id="@id/hidden_apps_list_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/nt_header" layout="@layout/hidden_apps_rv_layout" />
+    <ImageView android:id="@id/hidden_apps_scrim_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/nt_ic_eye" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+</com.nothing.launcher.hiddenapps.HiddenAppsContainerView>

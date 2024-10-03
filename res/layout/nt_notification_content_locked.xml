@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nothing.launcher.notification.NotificationMainLockedView android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/locked_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/nt_notification_locked_icon" android:scaleType="center" />
+    <TextView android:textSize="@dimen/notification_main_text_size" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="258.0dip" android:text="@string/nt_notification_content_locked_text" android:maxLines="2" android:contentDescription="@string/nt_notification_content_locked_text" android:layout_marginStart="8.0dip" style="@style/TextHeadline" />
+</com.nothing.launcher.notification.NotificationMainLockedView>

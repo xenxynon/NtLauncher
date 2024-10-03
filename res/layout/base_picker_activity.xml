@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/content_parent" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/HomeSettings.CollapsingToolbar" android:id="@id/app_bar" android:background="@android:color/transparent" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:outlineSpotShadowColor="@android:color/transparent" android:outlineAmbientShadowColor="@android:color/transparent">
+        <Toolbar android:theme="?android:actionBarTheme" android:id="@id/action_bar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:transitionName="shared_element_view" android:titleTextAppearance="@style/HomeSettings.CollapsedToolbarTitle">
+            <TextView android:textAppearance="@style/NTCollapsedToolbar" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/custom_toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        </Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout android:id="@id/content_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

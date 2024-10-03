@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/styles_wallpaper_button_text" android:key="pref_wallpaper_and_style" android:summary="@string/home_cus_wallpaper_subtitle" />
+    <com.nothing.ui.support.NtCustSwitchPreference android:persistent="true" android:title="@string/nothing_wallpaper_scrolling_title" android:key="pref_enable_wallpaper_scrolling" android:summary="@string/nothing_wallpaper_scrolling_summary" android:defaultValue="true" />
+    <Preference android:title="@string/home_cus_layout_title" android:key="pref_home_screen_layout" android:summary="@string/home_cus_layout_subtitle">
+        <intent android:targetPackage="com.nothing.launcher" android:action="com.nothing.launcher.screen_layout_config" android:targetClass="com.nothing.launcher.setting.screenlayout.ScreenLayoutConfigActivity" />
+    </Preference>
+    <Preference android:title="@string/nothing_wallpaper_style_appicon_title" android:key="pref_icon_pack" />
+</androidx.preference.PreferenceScreen>

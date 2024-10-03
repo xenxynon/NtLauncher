@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nothing.launcher.hiddenapps.HiddenAppsHeaderView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:layout_gravity="end" android:id="@id/nt_edit_btn" android:background="@drawable/nt_bg_hide_apps_edit_btn_borderless_dark" android:focusable="false" android:layout_width="56.0dip" android:layout_height="56.0dip" android:src="@drawable/nt_ic_edit_white" />
+</com.nothing.launcher.hiddenapps.HiddenAppsHeaderView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="48.0dip" android:width="48.0dip" android:viewportWidth="48.0" android:viewportHeight="48.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <clip-path android:pathData="M12,12h24v24h-24z" />
+        <path android:fillColor="@color/folder_customise_emoji_back_button_color" android:pathData="M24,32L16,24L24,16L25.425,17.4L19.825,23H32V25H19.825L25.425,30.6L24,32Z" />
+    </group>
+</vector>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nothing.launcher.setting.hiddenapps.EditHiddenAppsDragLayer android:id="@id/drag_layer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/nt_hide_apps_edit_container" layout="@layout/nt_hidden_apps_edit_container" />
+</com.nothing.launcher.setting.hiddenapps.EditHiddenAppsDragLayer>

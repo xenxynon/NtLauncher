@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/battery_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_battery_level" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <RelativeLayout android:id="@id/rv_battery_cell" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/iv_battery_device" android:layout_width="50.0dip" android:layout_height="30.0dip" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/iv_battery_indicator" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginTop="48.0dip" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rv_aod_battery_cell" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/iv_aod_battery_device" android:layout_width="32.0dip" android:layout_height="32.0dip" android:scaleType="centerCrop" />
+        <ImageView android:id="@id/iv_aod_battery_indicator" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginTop="8.0dip" android:layout_below="@id/iv_aod_battery_device" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

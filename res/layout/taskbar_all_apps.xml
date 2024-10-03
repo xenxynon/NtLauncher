@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.taskbar.allapps.TaskbarAllAppsSlideInView android:layout_width="fill_parent" android:layout_height="fill_parent" android:accessibilityPaneTitle="@string/all_apps_label"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.launcher3.taskbar.allapps.TaskbarAllAppsContainerView android:id="@id/apps_view" android:focusable="false" android:saveEnabled="false" android:clipChildren="true" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.android.launcher3.taskbar.allapps.TaskbarAllAppsSlideInView>

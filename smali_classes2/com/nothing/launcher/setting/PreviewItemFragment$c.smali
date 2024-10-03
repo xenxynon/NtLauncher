@@ -1,0 +1,235 @@
+.class final Lcom/nothing/launcher/setting/PreviewItemFragment$c;
+.super Lkotlin/coroutines/jvm/internal/l;
+.source "SourceFile"
+
+# interfaces
+.implements Ly5/p;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/nothing/launcher/setting/PreviewItemFragment;->h(Lq5/d;)Ljava/lang/Object;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x18
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/coroutines/jvm/internal/l;",
+        "Ly5/p<",
+        "Lt4/g;",
+        "Lq5/d<",
+        "-",
+        "Ln5/t;",
+        ">;",
+        "Ljava/lang/Object;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/coroutines/jvm/internal/f;
+    c = "com.nothing.launcher.setting.PreviewItemFragment$collectPreviewData$2"
+    f = "PreviewItemFragment.kt"
+    l = {}
+    m = "invokeSuspend"
+.end annotation
+
+
+# instance fields
+.field g:I
+
+.field synthetic h:Ljava/lang/Object;
+
+.field final synthetic i:Lcom/nothing/launcher/setting/PreviewItemFragment;
+
+
+# direct methods
+.method constructor <init>(Lcom/nothing/launcher/setting/PreviewItemFragment;Lq5/d;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/nothing/launcher/setting/PreviewItemFragment;",
+            "Lq5/d<",
+            "-",
+            "Lcom/nothing/launcher/setting/PreviewItemFragment$c;",
+            ">;)V"
+        }
+    .end annotation
+
+    iput-object p1, p0, Lcom/nothing/launcher/setting/PreviewItemFragment$c;->i:Lcom/nothing/launcher/setting/PreviewItemFragment;
+
+    const/4 p1, 0x2
+
+    invoke-direct {p0, p1, p2}, Lkotlin/coroutines/jvm/internal/l;-><init>(ILq5/d;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Lt4/g;Lq5/d;)Ljava/lang/Object;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lt4/g;",
+            "Lq5/d<",
+            "-",
+            "Ln5/t;",
+            ">;)",
+            "Ljava/lang/Object;"
+        }
+    .end annotation
+
+    invoke-virtual {p0, p1, p2}, Lcom/nothing/launcher/setting/PreviewItemFragment$c;->create(Ljava/lang/Object;Lq5/d;)Lq5/d;
+
+    move-result-object p0
+
+    check-cast p0, Lcom/nothing/launcher/setting/PreviewItemFragment$c;
+
+    sget-object p1, Ln5/t;->a:Ln5/t;
+
+    invoke-virtual {p0, p1}, Lcom/nothing/launcher/setting/PreviewItemFragment$c;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public final create(Ljava/lang/Object;Lq5/d;)Lq5/d;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Object;",
+            "Lq5/d<",
+            "*>;)",
+            "Lq5/d<",
+            "Ln5/t;",
+            ">;"
+        }
+    .end annotation
+
+    new-instance v0, Lcom/nothing/launcher/setting/PreviewItemFragment$c;
+
+    iget-object p0, p0, Lcom/nothing/launcher/setting/PreviewItemFragment$c;->i:Lcom/nothing/launcher/setting/PreviewItemFragment;
+
+    invoke-direct {v0, p0, p2}, Lcom/nothing/launcher/setting/PreviewItemFragment$c;-><init>(Lcom/nothing/launcher/setting/PreviewItemFragment;Lq5/d;)V
+
+    iput-object p1, v0, Lcom/nothing/launcher/setting/PreviewItemFragment$c;->h:Ljava/lang/Object;
+
+    return-object v0
+.end method
+
+.method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    check-cast p1, Lt4/g;
+
+    check-cast p2, Lq5/d;
+
+    invoke-virtual {p0, p1, p2}, Lcom/nothing/launcher/setting/PreviewItemFragment$c;->a(Lt4/g;Lq5/d;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 4
+
+    invoke-static {}, Lr5/b;->c()Ljava/lang/Object;
+
+    iget v0, p0, Lcom/nothing/launcher/setting/PreviewItemFragment$c;->g:I
+
+    if-nez v0, :cond_4
+
+    invoke-static {p1}, Ln5/m;->b(Ljava/lang/Object;)V
+
+    iget-object p1, p0, Lcom/nothing/launcher/setting/PreviewItemFragment$c;->h:Ljava/lang/Object;
+
+    check-cast p1, Lt4/g;
+
+    if-eqz p1, :cond_3
+
+    iget-object p0, p0, Lcom/nothing/launcher/setting/PreviewItemFragment$c;->i:Lcom/nothing/launcher/setting/PreviewItemFragment;
+
+    invoke-static {p0}, Lcom/nothing/launcher/setting/PreviewItemFragment;->f(Lcom/nothing/launcher/setting/PreviewItemFragment;)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_3
+
+    invoke-virtual {v0}, Ljava/lang/Number;->intValue()I
+
+    move-result v1
+
+    const/4 v2, 0x0
+
+    if-ltz v1, :cond_0
+
+    invoke-virtual {p1}, Lt4/g;->e()[I
+
+    move-result-object v3
+
+    array-length v3, v3
+
+    if-ge v1, v3, :cond_0
+
+    const/4 v2, 0x1
+
+    :cond_0
+    const/4 v1, 0x0
+
+    if-eqz v2, :cond_1
+
+    goto :goto_0
+
+    :cond_1
+    move-object v0, v1
+
+    :goto_0
+    if-eqz v0, :cond_3
+
+    invoke-virtual {v0}, Ljava/lang/Number;->intValue()I
+
+    move-result v0
+
+    invoke-static {p0}, Lcom/nothing/launcher/setting/PreviewItemFragment;->e(Lcom/nothing/launcher/setting/PreviewItemFragment;)Lcom/android/launcher3/databinding/SinglePreviewItemLayoutBinding;
+
+    move-result-object p0
+
+    if-nez p0, :cond_2
+
+    const-string p0, "binding"
+
+    invoke-static {p0}, Lkotlin/jvm/internal/n;->t(Ljava/lang/String;)V
+
+    goto :goto_1
+
+    :cond_2
+    move-object v1, p0
+
+    :goto_1
+    iget-object p0, v1, Lcom/android/launcher3/databinding/SinglePreviewItemLayoutBinding;->homeScreenPreview:Lcom/nothing/launcher/setting/view/HomeScreenPreview;
+
+    invoke-virtual {p0, v0, p1}, Lcom/nothing/launcher/setting/view/HomeScreenPreview;->e(ILt4/g;)V
+
+    :cond_3
+    sget-object p0, Ln5/t;->a:Ln5/t;
+
+    return-object p0
+
+    :cond_4
+    new-instance p0, Ljava/lang/IllegalStateException;
+
+    const-string p1, "call to \'resume\' before \'invoke\' with coroutine"
+
+    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+.end method

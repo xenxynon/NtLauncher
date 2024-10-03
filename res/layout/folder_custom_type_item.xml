@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="14.0sp" android:textColor="@color/folder_type_text_color" android:ellipsize="marquee" android:gravity="center_horizontal" android:background="@drawable/fd_cust_select_current_folder_style_board" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:drawablePadding="8.0dip" android:layout_weight="1.0" android:fontFamily="sans-serif" android:paddingHorizontal="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

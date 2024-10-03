@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/folder_cover_emoji_item_0" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="32.0dip" android:textColor="@color/folder_customise_emoji_selected_color" android:gravity="center" android:id="@id/icon" android:background="@drawable/folder_custom_emoji_bg" android:layout_width="@dimen/cover_item_size" android:layout_height="@dimen/cover_item_size" android:contentDescription="@string/nothing_wallpaper_style_iconpack_add_new_text" android:fontFamily="@font/noto_emoji_medium" />
+    <ImageView android:layout_gravity="end|bottom|center" android:id="@id/emoji_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="7.0dip" android:src="@drawable/ic_folder_emoji_tips" android:layout_marginEnd="7.0dip" />
+</FrameLayout>

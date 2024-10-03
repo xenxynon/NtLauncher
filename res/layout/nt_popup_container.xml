@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nothing.launcher.popup.NTPopupContainer android:orientation="vertical" android:id="@id/popup_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/popup_container_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.launcher3.notification.NotificationContainer android:id="@id/notification_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <GridLayout android:orientation="horizontal" android:id="@id/deep_shortcuts_container" android:tag="@string/popup_nt_deep_shortcuts_container" android:background="@drawable/nt_deep_shortcuts_container_bg" android:padding="@dimen/popup_deep_shortcut_item_margin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:columnCount="2" android:useDefaultMargins="false" android:elevation="@dimen/deep_shortcuts_elevation" />
+</com.nothing.launcher.popup.NTPopupContainer>

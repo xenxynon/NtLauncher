@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:tag="layout/single_preview_item_layout_0" android:layout_width="@dimen/icon_pack_preview_widget" android:layout_height="fill_parent" android:contentDescription="Home screen preview" android:screenReaderFocusable="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nothing.launcher.setting.view.NTWallpaperPreview android:layout_gravity="center" android:id="@id/wallpaper_surface" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no" />
+    <com.nothing.launcher.setting.view.HomeScreenPreview android:layout_gravity="center" android:id="@id/home_screen_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="noHideDescendants" android:layoutDirection="ltr" />
+    <View android:background="@drawable/icon_pack_preview_item_border" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

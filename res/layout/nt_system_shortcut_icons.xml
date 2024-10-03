@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/system_shortcut_icons" android:background="@drawable/nt_single_item_primary" android:clipToPadding="true" android:paddingHorizontal="@dimen/popup_item_icon_padding" style="@style/NtPopupItem"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

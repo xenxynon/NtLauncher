@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="config_pipForceCloseDelay">5000</integer>
+    <integer name="starting_window_app_reveal_anim_delay">0</integer>
+    <integer name="starting_window_app_reveal_anim_duration">0</integer>
+    <integer name="starting_window_app_reveal_icon_fade_out_duration">0</integer>
+    <integer name="config_pipStashDuration">5000</integer>
+</resources>

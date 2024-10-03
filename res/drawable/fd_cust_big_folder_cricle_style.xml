@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/folder_style_icon_size" android:width="@dimen/folder_style_icon_size" android:viewportWidth="78.0" android:viewportHeight="78.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/folder_type_icon_bg_color" android:pathData="M39,0L39,0A39,39 0,0 1,78 39L78,39A39,39 0,0 1,39 78L39,78A39,39 0,0 1,0 39L0,39A39,39 0,0 1,39 0z" />
+    <path android:fillColor="@color/folder_type_icon_item_color" android:pathData="M39,3L39,3A11,11 0,0 1,50 14L50,14A11,11 0,0 1,39 25L39,25A11,11 0,0 1,28 14L28,14A11,11 0,0 1,39 3z" />
+    <path android:fillColor="@color/folder_type_icon_item_color" android:pathData="M39,53L39,53A11,11 0,0 1,50 64L50,64A11,11 0,0 1,39 75L39,75A11,11 0,0 1,28 64L28,64A11,11 0,0 1,39 53z" />
+    <path android:fillColor="@color/folder_type_icon_item_color" android:pathData="M60.649,15.499L60.649,15.499A11,11 0,0 1,71.649 26.499L71.649,26.499A11,11 0,0 1,60.649 37.499L60.649,37.499A11,11 0,0 1,49.649 26.499L49.649,26.499A11,11 0,0 1,60.649 15.499z" />
+    <path android:fillColor="@color/folder_type_icon_item_color" android:pathData="M17.349,40.499L17.349,40.499A11,11 0,0 1,28.349 51.499L28.349,51.499A11,11 0,0 1,17.349 62.499L17.349,62.499A11,11 0,0 1,6.349 51.499L6.349,51.499A11,11 0,0 1,17.349 40.499z" />
+    <path android:fillColor="@color/folder_type_icon_item_color" android:pathData="M60.649,40.499L60.649,40.499A11,11 0,0 1,71.649 51.499L71.649,51.499A11,11 0,0 1,60.649 62.499L60.649,62.499A11,11 0,0 1,49.649 51.499L49.649,51.499A11,11 0,0 1,60.649 40.499z" />
+    <path android:fillColor="@color/folder_type_icon_item_color" android:pathData="M17.349,15.499L17.349,15.499A11,11 0,0 1,28.349 26.499L28.349,26.499A11,11 0,0 1,17.349 37.499L17.349,37.499A11,11 0,0 1,6.349 26.499L6.349,26.499A11,11 0,0 1,17.349 15.499z" />
+</vector>
