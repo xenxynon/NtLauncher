@@ -1,12 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.android.quickstep.views.OverviewActionsView android:layout_gravity="bottom|center" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:layout_gravity="bottom|center" android:orientation="horizontal" android:id="@id/action_buttons" android:layout_width="fill_parent" android:layout_height="@dimen/overview_actions_height">
-        <Space android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
-        <Button android:theme="@style/OverviewActionButtonHighlightColor" android:id="@id/action_screenshot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/action_screenshot" android:drawableStart="@drawable/ic_screenshot" style="@style/OverviewActionButton" />
-        <Space android:id="@id/action_split_space" android:visibility="gone" android:layout_width="@dimen/overview_actions_button_spacing" android:layout_height="1.0dip" />
-        <Button android:theme="@style/OverviewActionButtonHighlightColor" android:id="@id/action_split" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/action_split" style="@style/OverviewActionButton" />
-        <Space android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
-        <Space android:id="@id/oav_three_button_space" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+<com.android.quickstep.views.OverviewActionsView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="bottom|center"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@id/action_buttons"
+        android:layout_gravity="bottom|center"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/overview_actions_height"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="0.0dip"
+            android:layout_height="1.0dip"
+            android:layout_weight="1.0" />
+
+        <Button
+            android:id="@id/action_screenshot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/action_screenshot"
+            android:drawableStart="@drawable/ic_screenshot"
+            android:theme="@style/OverviewActionButtonHighlightColor"
+            style="@style/OverviewActionButton" />
+
+        <Space
+            android:id="@id/action_split_space"
+            android:layout_width="@dimen/overview_actions_button_spacing"
+            android:layout_height="1.0dip"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@id/action_split"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/action_split"
+            android:visibility="gone"
+            android:theme="@style/OverviewActionButtonHighlightColor"
+            style="@style/OverviewActionButton" />
+
+        <Space
+            android:layout_width="0.0dip"
+            android:layout_height="1.0dip"
+            android:layout_weight="1.0" />
+
+        <Space
+            android:id="@id/oav_three_button_space"
+            android:layout_width="0.0dip"
+            android:layout_height="1.0dip"
+            android:layout_weight="1.0"
+            android:visibility="gone" />
+
     </LinearLayout>
 </com.android.quickstep.views.OverviewActionsView>
